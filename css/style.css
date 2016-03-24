@@ -1,3 +1,46 @@
 body {
-	background: #450775;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+}
+/*****************************
+		SIDE BAR
+******************************/
+.side-menu {
+	width: 100px;
+	height: 100%;
+	background: #e7f0f2;
+	position: fixed;
+	z-index: 1;
+}
+
+.main-menu {
+
+}
+
+.unstyled-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.main-menu ul {
+}
+
+.social-menu {
+}
+
+/***************************
+		MAIN CONTENT
+****************************/
+.main-content {
+	padding-left: 100px;
+}
+
+.section {
+	background: #6a7577;
+	color: #e7f0f2;
 }
